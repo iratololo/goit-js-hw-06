@@ -9,8 +9,6 @@ increment.addEventListener("click", countResult);
 
 
 function countResult(event) {
-    // console.log(event.currentTarget);
-    // console.log(event.currentTarget.dataset.action);
     switch (event.currentTarget.dataset.action) {
         case "decrement":
             counterValue -= 1;
@@ -23,5 +21,3 @@ function countResult(event) {
     }
 }
 
-
-// console.log(counterValue);
