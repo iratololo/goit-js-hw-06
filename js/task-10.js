@@ -31,7 +31,7 @@ function createBoxes(amount) {
 
 function destroyBoxes() {
   boxes.innerHTML = "";
-  number.value = "";
+  // number.value = "";
 }
 
 
