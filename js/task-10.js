@@ -17,6 +17,7 @@ function handlerInput() {
 
 
 function createBoxes(amount) {
+  destroyBoxes();
   const murkup = [];
   for (let i = 0, n = 30; i < amount; i++, n +=10) {
     const div = document.createElement("div");

@@ -4,9 +4,10 @@ const result = document.querySelector("#name-output");
 input.addEventListener("input",handlerInput);
 
 function handlerInput() {
-    if (input.value ==="") {
+    const inputVal = input.value;
+    if (inputVal.trim() ==="") {
        result.textContent = "Anonymous"
     } else {
-        result.textContent = input.value;
+        result.textContent = inputVal;
     }
 }
